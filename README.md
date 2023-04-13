@@ -67,3 +67,22 @@ allows to inherit styles from some selector
 
 [Functions cheatsheet at github](https://gist.github.com/AllThingsSmitty/3bcc79da563df756be46)
 
+# Placeholder selectors
+
+are used with extend when we need a selector to inherit styles from but don't want this selector to get into the compiled css
+
+## syntacsis
+
+```
+%placeHolderSelectorThatWillNotBePresentInCSS {
+    color: red;
+    font-size: 12px;
+    &:hover {
+        color: purple;
+    }
+}
+
+.classThatWillInheritStyles {
+    @extend %placeHolderSelectorThatWillNotBePresentInCSS // css will contain styles only for .classThatWillInheritStyles
+}
+```
