@@ -86,3 +86,5 @@ are used with extend when we need a selector to inherit styles from but don't wa
     @extend %placeHolderSelectorThatWillNotBePresentInCSS // css will contain styles only for .classThatWillInheritStyles
 }
 ```
+
+[Project 1 page](https://natalieklid.github.io/sass/)
