@@ -1,13 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans&family=Nunito&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/df0bda45fc.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
+
 <body>
-    
+
+    <nav class="navbar">
+        <input type="checkbox" id="check" class="checkbox" hidden>
+        <div class="hamburger-menu">
+            <label for="check" class="menu">
+                <div class="menu-line menu-line-1"></div>
+                <div class="menu-line menu-line-2"></div>
+                <div class="menu-line menu-line-3"></div>
+            </label>
+        </div>
+
+        <div class="navbar-navigation">
+            <div class="navbar-navigation-left">
+                <img src="images/nav-img-1.jpg" alt="" class="left-img left-img-1">
+                <img src="images/nav-img-2.jpg" alt="" class="left-img left-img-2">
+                <img src="images/nav-img-3.jpg" alt="" class="left-img left-img-3">
+            </div>
+            <div class="navbar-navigation-right">
+                <ul class="navlist">
+                    <li class="navlist-item">
+                        <a href="" class="navlist-link">Home</a>
+                    </li>
+                    <li class="navlist-item">
+                        <a href="" class="navlist-link">About us</a>
+                    </li>
+                    <li class="navlist-item">
+                        <a href="" class="navlist-link">Gallery</a>
+                    </li>
+                    <li class="navlist-item">
+                        <a href="" class="navlist-link">Reservation</a>
+                    </li>
+                    <li class="navlist-item">
+                        <a href="" class="navlist-link">Services</a>
+                    </li>
+                    <li class="navlist-item">
+                        <a href="" class="navlist-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="brand">
+            <a href="#" class="logo"><i class="fa-solid fa-thumbs-up"></i></a>
+            <div>
+                <h1 class="main-name">Ukraine</h1>
+                <p class="sub-name">Country of awesome people</p>
+            </div>
+        </div>
+        <div class="header-banner">
+            <h1 class="main-heading">Welcome</h1>
+            <h3 class="sub-heading">Get to know more about the bravest country in the world</h3>
+            <button class="main-btn" type="button">Go</button>
+        </div>
+    </header>
+
+    <section class="about-us">
+        <div class="about-us-left"><img src="images/about-us-img.png" alt=""></div>
+        <div class="about-us-right">
+            <h1 class="main-heading">About us</h1>
+            <h3 class="sub-heading">Some information</h3>
+            <div class="stars">
+                <i class="fas fa-star-of-life star"></i>
+                <i class="fas fa-star-of-life star"></i>
+                <i class="fas fa-star-of-life star"></i>
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ducimus, et quo
+                sit hic libero modi perspiciatis aspernatur delectus illo harum, explicabo quas est ipsam fugiat alias
+                pariatur excepturi ab dolorem possimus aperiam provident optio! Eligendi suscipit omnis sunt laboriosam
+                assumenda veniam placeat deleniti maxime sit et? Neque, corporis? Rem?</p>
+            <div class="stars">
+                <i class="fas fa-star-of-life star"></i>
+                <i class="fas fa-star-of-life star"></i>
+                <i class="fas fa-star-of-life star"></i>
+            </div>
+            <button class="main-btn" type="button">Read more</button>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="cards-wrapper">
+            <div class="card">
+                <div class="card-overlay">
+                    <h1 class="card-overlay-heading">
+                        Вишиванка
+                    </h1>
+                    <p class="card-overlay-paragraph">Price: $30</p>
+                    <button class="card-overlay-btn" type="button">Order now</button>
+                </div>
+                <img src="images/image1.jpg" alt="" class="card-img">
+            </div>
+            <div class="card">
+                <div class="card-overlay">
+                    <h1 class="card-overlay-heading">
+                        Калина
+                    </h1>
+                    <p class="card-overlay-paragraph">Price: $30</p>
+                    <button class="card-overlay-btn" type="button">Order now</button>
+                </div>
+                <img src="images/image2.jpg" alt="" class="card-img">
+            </div>
+            <div class="card">
+                <div class="card-overlay">
+                    <h1 class="card-overlay-heading">
+                        Тризуб
+                    </h1>
+                    <p class="card-overlay-paragraph">Price: $30</p>
+                    <button class="card-overlay-btn" type="button">Order now</button>
+                </div>
+                <img src="images/image3.jpg" alt="" class="card-img">
+            </div>
+            <div class="card">
+                <div class="card-overlay">
+                    <h1 class="card-overlay-heading">
+                        Прапор
+                    </h1>
+                    <p class="card-overlay-paragraph">Price: $30</p>
+                    <button class="card-overlay-btn" type="button">Order now</button>
+                </div>
+                <img src="images/image4.jpg" alt="" class="card-img">
+            </div>
+            <div class="card">
+                <div class="card-overlay">
+                    <h1 class="card-overlay-heading">
+                        Лелека
+                    </h1>
+                    <p class="card-overlay-paragraph">Price: $30</p>
+                    <button class="card-overlay-btn" type="button">Order now</button>
+                </div>
+                <img src="images/image5.jpg" alt="" class="card-img">
+            </div>
+            <div class="card">
+                <div class="card-overlay">
+                    <h1 class="card-overlay-heading">
+                        Херсонські кавуни
+                    </h1>
+                    <p class="card-overlay-paragraph">Price: $30</p>
+                    <button class="card-overlay-btn" type="button">Order now</button>
+                </div>
+                <img src="images/image6.jpg" alt="" class="card-img">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-header">
+            <a href="#" class="logo"><i class="fa-solid fa-thumbs-up"></i></a>
+            <div>
+                <h1 class="main-name">Ukraine</h1>
+                <p class="sub-name">Country of awesome people</p>
+            </div>
+        </div>
+        <div class="footer-social-media">
+            <ul class="social-media">
+                <li class="social-media-item">
+                    <a href="" class="social-media-link">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                </li>
+                <li class="social-media-item">
+                    <a href="" class="social-media-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-media-item">
+                    <a href="" class="social-media-link">
+                        <i class="fab fa-google-plus-square"></i>
+                    </a>
+                </li>
+                <li class="social-media-item">
+                    <a href="" class="social-media-link">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-copyright">
+            <p class="footer-copyright-paragraph">
+                &copy; Copyright. Ukraine. All rights reserved
+            </p>
+        </div>
+    </footer>
 </body>
+
 </html>

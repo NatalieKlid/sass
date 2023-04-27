@@ -8,7 +8,7 @@
 },
   "scripts": {
     "compile": "node-sass --output-style compressed -o css scss/main.scss",
-    "cw": "node-sass --output-style compressed -o css scss/main.scss -w"
+    "cw": "node-sass --output-style compressed -o css scss -w"
   },
   "repository": {
     "type": "git",
